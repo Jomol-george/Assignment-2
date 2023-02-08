@@ -1,0 +1,88 @@
+/* Author:JOMOL GEORGE
+Date:07-02-2023 */
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Slab", serif;
+}
+.banner {
+    background-image: url(../images/academy-banner.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3::before {
+    content: "{ ";
+    color: #ff0000;
+}
+h3::after {
+    content: " }";
+    color: #ff0000;
+}
+.gd {
+    position: relative;
+}
+
+.info {
+    background-color: #1e2531;
+    color: darkturquoise;
+    margin-top: 120px;
+    margin-left: 38%;
+    width: 60%;
+    height: 45vh;
+    padding: 5%;
+    position: absolute;
+}
+.php_mysql {
+    background-image: url(../images/modulebg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.php_div {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 10%;
+    padding: 20px;
+    color: #ffff;
+    border-radius: 10px;
+    text-align: center;
+}
+.test_pic {
+    background-image: url(../images/testsbg.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.interview_pic {
+    background-image: url(../images/intrvwbg.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner_div {
+    background-color: rgba(6, 8, 11, 0.7);
+    height: 100%;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 576px) {
+    .f1 {
+        display: none;
+    }
+    .banner {
+        background-image: none;
+        background-color: lightseagreen;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .info {
+        position: static;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
